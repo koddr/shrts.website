@@ -21,7 +21,6 @@ jobs:
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
           source: "short_urls_list.conf"
           target: "${{ secrets.REMOTE_DIR }}"
-          rm: true
 
       # Restart NGINX after deploy
       - name: Restart NGINX
