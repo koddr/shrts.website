@@ -1,0 +1,11 @@
+User-agent: Yandex
+Disallow: /*/*
+
+User-agent: Googlebot
+Disallow: /*/*
+
+User-agent: *
+Disallow: /*/*
+
+Host: https://shrts.website
+Sitemap: https://shrts.website/sitemap.xml

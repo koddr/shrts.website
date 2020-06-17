@@ -1,0 +1,13 @@
+{
+  "name": "shrts.website",
+  "short_name": "shrts.website",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#0d3f67",
+  "theme_color": "#6b48ff",
+  "display": "fullscreen"
+}

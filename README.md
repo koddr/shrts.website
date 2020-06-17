@@ -1,11 +1,8 @@
-# 🔗 [shrts.website](https://shrts.website/)
+# Source code of [shrts.website](https://shrts.website/)
 
-A links shortener project for websites & useful snippets for internal (_and not really_) needs. Each URL in the list below is checked and leads to the corresponding original link using a 301 (_Moved Permanently_) redirect.
+Source code of a website for links shortener project.
 
-## 📌 Shortened URLs
-
-- [`/sd/new-vds`](https://shrts.website/sd/new-vds) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/new_vds.sh`
-- [`/sd/create-ssl`](https://shrts.website/sd/create-ssl) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/create_ssl.sh`
+Automatically deploy to virtual server via SSH, after push to the current branch (`website`).
 
 ## 📚 License
 

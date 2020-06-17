@@ -1,8 +1,8 @@
-name: Deploy new short URLs via SSH
+name: Deploy website via SSH
 
 on:
   push:
-    branches: [master]
+    branches: [website]
 
 jobs:
   build:
@@ -19,8 +19,8 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          source: "short_urls_list.conf"
-          target: "${{ secrets.REMOTE_DIR }}"
+          source: "index.html,robots.txt,sitemap.xml,favicon.svg,apple-touch-icon.png,manifest.json"
+          target: "${{ secrets.REMOTE_WEBSITE_DIR }}"
 
       # Restart NGINX after deploy
       - name: Restart NGINX
