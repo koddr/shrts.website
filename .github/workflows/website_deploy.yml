@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          source: "index.html,robots.txt,sitemap.xml,favicon.svg,apple-touch-icon.png,manifest.json"
+          source: "index.html,robots.txt,sitemap.xml,favicon.svg,favicon.png,apple-touch-icon.png,manifest.json"
           target: "${{ secrets.REMOTE_WEBSITE_DIR }}"
 
       # Restart NGINX after deploy
