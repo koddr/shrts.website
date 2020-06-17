@@ -4,7 +4,7 @@ A links shortener project for websites & useful snippets for internal (_and not 
 
 ![shrts website](.github/gh-cover.png)
 
-## 📌 Shortened URLs
+## 📌 List of shorted URLs
 
 - [`/sd/new-vds`](https://shrts.website/sd/new-vds) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/new_vds.sh`
 - [`/sd/create-ssl`](https://shrts.website/sd/create-ssl) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/create_ssl.sh`
