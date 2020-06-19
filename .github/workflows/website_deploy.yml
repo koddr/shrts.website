@@ -24,10 +24,10 @@ jobs:
 
       # Restart NGINX after deploy
       - name: Restart NGINX
-        uses: garygrossgarten/github-action-ssh@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USER }}
-          privateKey: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_KEY_PASSPHRASE }}
-          command: sudo nginx -t && sudo systemctl restart nginx
+          script: sudo nginx -t && sudo systemctl restart nginx
