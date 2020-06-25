@@ -6,10 +6,10 @@ A links shortener project for websites & useful snippets for internal (_and not 
 
 ## 📌 List of shorted URLs
 
-For [`truewebartisans/snippets-deploy`](https://github.com/truewebartisans/snippets-deploy) repository:
+For [`truewebartisans/snippets-deploy`](https://github.com/truewebartisans/useful-playbooks/tree/bash) (`bash` version) repository:
 
-- [`/sd/new-vds`](https://shrts.website/sd/new-vds) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/new_vds.sh`
-- [`/sd/create-ssl`](https://shrts.website/sd/create-ssl) → `https://raw.githubusercontent.com/truewebartisans/snippets-deploy/master/create_ssl.sh`
+- [`/sd/new-vds`](https://shrts.website/sd/new-vds) → `https://raw.githubusercontent.com/truewebartisans/useful-playbooks/bash/new_vds.sh`
+- [`/sd/create-ssl`](https://shrts.website/sd/create-ssl) → `https://raw.githubusercontent.com/truewebartisans/useful-playbooks/bash/create_ssl.sh`
 
 For my _personal_ referal links:
 
