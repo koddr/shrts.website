@@ -8,7 +8,7 @@ A links shortener project for websites & useful snippets for internal (_and not 
 
 For [`create-go-app/cli`](https://github.com/create-go-app/cli) repository:
 
-- [`/cgapp/faq`](https://shrts.website/cgapp/faq) → `https://github.com/create-go-app/cli#-faq`
+- [`/cgapp/docs`](https://shrts.website/cgapp/docs) → `https://github.com/create-go-app/cli#-official-documentation`
 
 For [`truewebartisans/useful-playbooks`](https://github.com/truewebartisans/useful-playbooks/tree/bash) (`bash` version) repository:
 
