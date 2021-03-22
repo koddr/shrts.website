@@ -8,7 +8,7 @@ A links shortener project for websites & useful snippets for internal (_and not 
 
 For [`koddr/book-rapid-development-with-fiber`](https://github.com/koddr/book-rapid-development-with-fiber) repository:
 
-- [books/fiber](https://shrts.website/books/fiber) →  `https://github.com/koddr/book-rapid-development-with-fiber`
+- [`books/fiber`](https://shrts.website/books/fiber) →  `https://github.com/koddr/book-rapid-development-with-fiber`
 
 For [`create-go-app/cli`](https://github.com/create-go-app/cli) repository:
 
